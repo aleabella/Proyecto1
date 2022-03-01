@@ -1,0 +1,21 @@
+.boton {
+    width: 120 px ;
+    background-color: #f00;
+    color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+.boton a{
+    margin: 20px 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton:hover {
+    background-color: #00f;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 3s;

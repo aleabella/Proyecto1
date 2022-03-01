@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* seudoclase son para las propiedades que siempre vamos a usar en el diseño */
+:root{
+    --dark-color:#191919;
+    --white-color:#ffffff;
+    --purple-color:rgb(117,41,149);
+    --blue-color: #00b2b1;
+    --gray-color: #828282;
+    --ligh-color: #F3F3F3;
+
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+color: var(--dark-color);
+}
+p{
+    text-align: justify;
+}
+
+#login{ /*el numeral es un identificador para darle un estilo especifico a algo*/
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+}
+
+.form-login h1{
+text-align:center;
+}
+
+.form-login i{
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    padding: 1rem 0.8rem;
+    border-radius: 100%;
+    border: 4px solid var(--gray-color)
+}
+
+
+.form-login{
+    margin-top: 10px;
+    max-width:  400px;
+    width:100%;
+    box-shadow: 1px 1px 2px var(--dark-color);
+    background-color: var(--ligh-color);
+    border-radius: 5px;
+    padding: 40px;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+
+
+.form-input{
+border: 3px solid var(--gray-color);
+padding: 0.5rem;
+outline: none; 
+}
+
+.form-input:focus{
+    border: 3px solid var(--gray-color);
+}
+.form-input::placeholder{
+    font-size: 0.8rem;
+}
+
+
+.btm-azul,.btn-morado{
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    
+}
+.btm-azul{
+    background-color: var(--blue-color);
+}
+.btn-morado{
+    background-color: var(--purple-color);
+}
+
+.form-olvido{
+    text-align: center;
+    color: var(--blue-color);
+    font-size: 0.9rem;
+}
+
+

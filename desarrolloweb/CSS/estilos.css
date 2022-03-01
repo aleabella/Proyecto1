@@ -1,0 +1,25 @@
+/*Determinar como hacer los estilos
+//regla slector propiedad*/
+/*body {background-image: url(..//IMG/colores.jpg);
+background-repeat: no-repeat;}
+    h1 { background-color: brown;
+        color: blueviolet;
+        font-size: 30px
+        font-familY'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+        text-decoration: underline} 
+        h2   {color: rgb(11,241,42);
+            font-size: 50px; 
+            font-style: oblique;
+            text-decoration:overline}
+/*p{color:hsl(hue,saturation,lightness);}*/
+/*p{color: hsl(207,46%,10%);
+font-family: 'Nosifer', cursive;
+text-align:center }
+img{width:50px}
+
+header{text-align: center;
+}
+
+.sailor-moon{
+
+}

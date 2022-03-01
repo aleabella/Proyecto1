@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="Forms" author="Alejandra A">
+    <title>Formularios</title>
+    <link type="image/x-icon" href="IMG/bx-lemon.svg" rel="icon">
+    <img src="IMG/bx-lemon.svg">
+
+</head>
+
+<body background="IMG/naranja.jpg"> 
+    <header>
+        <h1><strong><em>Formularios</em></strong></h1>
+    </header>
+
+   
+
+    <form name="Form" Action="https://www.youtube.com/" method="post" target="_blank" autocomplete="autocomplete" novalidate > 
+       
+    <label for="Form">Nombre Usuario</label>
+    <input name="nombre" id="nombre" type="text" 
+    placeholder="Ingresar nombre">
+    <input name="password" id="password" type="password" placeholder="Ingresar Password">
+    <br>
+    <br>
+    <label for="ecivil"> Ingrese a su estado civil</label>
+    <input name="ecivil" id="ecivil" type="radio" checked> En relación
+    <input name="ecivil" id="ecivil" type="radio" checked> Soltero
+    <input name="ecivil" id="ecivil" type="radio" checked> Casado
+    <input name="ecivil" id="ecivil" type="radio" checked> Viudo
+
+    <br>
+    <br>
+    <label for="deporte">¿Qué hobbies tiene?</label>
+    <input name="deporte" id="deporte" type="checkbock"> Futbol
+    <input name="deporte" id="deporte" type="checkbock"> Baloncesto
+    <input name="deporte" id="deporte" type="checkbock"> Natación
+            <br><br>
+
+    <label for="edad">Ingresa</label>
+        <input name="edad" id="edad" type="number" placeholder="Ingrese Edad"> 
+        <br><br>
+
+    <label for="ciudad">¿Dónde vives?</label>
+    <select name="ciudad" id="ciudad">
+        <option value="0" selecte> Elige una ciudad</option>
+        <optio value="1">Bogotá</optio>
+        <optio value="2">Medellin</optio>
+        <optio value="3">Perira</optio>
+       
+     </select>
+     <br><br>
+
+     <label for="ciudad1">¿Dónde vives?</label>
+    <select name="ciudad" id="ciudad">
+        <option value="0" selecte> Elige una ciudad</option>
+        <optgroup label="Cundinamarca">
+        <optio value="1">Bogotá</optio>
+        <optio value="2">Chia</optio>
+        <optio value="3">Sopo</optio>
+        </optgroup>
+
+        <optgroup label="Antioquia">
+        <optio value="4">Medellin</optio>
+        <optio value="5">Rio Negro</optio>
+        <optio value="6">Envigado</optio>
+        </optgroup>
+
+        <optgroup label="Vale de Cauca">
+        <optio value="7">Cali</optio>
+        <optio value="8">Buga</optio>
+        </optgroup>
+
+        <optgroup label="Santander">
+        <optio value="1">Bucaramanga</optio>
+        <optio value="2">Floreda Blanca</optio>
+        </optgroup>
+    </select>
+    <br><br>
+    <input type="hidden" name="dato_oculto">
+    <br><br>
+
+    <label for="file">sube aquí tu arechivo</label>
+    <input for="file" name="file" id="file" required accept="application/pdf,application/vds.ms--excel">
+    <br><br>
+
+    <label for="observacione">Observaciones</label>
+    <textarea rows="3" cols="30" name="Observaciones"></textarea> 
+    <br><br>
+    <label for="emaIL">Ingresa el correo</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="buscar">Digita el dato a buscar--</label>
+    <input type="search" id="buscar" name="buscar" placeholder="buscar...">
+    <input type="submit" value="Ir">
+    <br><br>
+    <label  for="email"> Ingresa el correo electrónico</label>
+    <input type="email" id="email" name="email" patter="[\W-\.]+@([\W-]+\.)+[{2,4}$">
+    <br><br>
+
+    <label  for="color"> Ingresa elcolor</label>
+    <input type="color" id="color" name="color">
+    <br><br>
+
+        <label for="date"> Ingresar fecha de Nacimiento</label>
+        <input type="date" id="date" name="date" min="2000-01-01" max="">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+    <br><br>
+    <button type="submit">Guardar</button>
+    <br><br>
+    <span>Hora</span>
+    <label for "time">
+        <input type="time" name="time" id="time"
+    </label>
+    <br><br>
+    <label for "day"><span>Día</span>
+        <input type="date" name="date" id="date"
+    </label>
+
+    <label for "week"><span>Semana</span>
+        <input type="week" name="week" id="week"
+    </label>
+    <br><br>
+    <label>Califique su experiencia</label>
+    <input type="range" min="1" max="15" step="2" value="1">
+
+</form> 
+
+    <style></style>
+
+    <p style=""></p>
+    
+
+    <footer>TechPower</footer>
+</body>
+</html>
